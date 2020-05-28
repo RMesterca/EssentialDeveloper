@@ -1,0 +1,56 @@
+/* 
+  Goal.strings
+  ComposingViewControllers
+
+  Created by Raluca Mesterca on 11/04/2020.
+  Copyright © 2020 fig. All rights reserved.
+*/
+
+
+"PART ONE" = "Storyboards composition"
+//https://www.essentialdeveloper.com/articles/composing-view-controllers-part-1-storyboards-composition
+
+"Storyboards still open long debates on their usefulness vs. trade-offs. While their visual map of the app interface and flow is a big win for some developers, their string-y APIs and tight coupling between UI, controllers, and navigation is a no-no for others."
+
+"Composition is a great technique for managing complexity by separating systems in tiny parts that can later be composed and reused."
+
+"Can both coexist? In this episode, we tackle storyboard composition and other common problems: separating layout from code, reusable views, extending functionality, and much more."
+
+"How to compose viewcontrollers by separating the layout"
+
+"For example, you have a game with 2 modes: single and multiplayer. Every time you need to make a change to the first view controller(SP), those changes need to be reflected in the second one (MP)"
+
+// ----------------------------------------------------------------------------
+
+
+"PART TWO" = "Testing Storyboards"
+// https://www.essentialdeveloper.com/articles/composing-view-controllers-part-2-testing-storyboards
+
+"Can you TDD storyboards? Absolutely! In this episode, we show how important it is to have automated tests for your storyboards wiring and how fast it is to write clean and flexible tests that can allow you to change code with confidence. Trust the process!"
+
+
+// ----------------------------------------------------------------------------
+
+
+"PART THREE" = "Lifecycle Observers in Swift"
+// https://www.essentialdeveloper.com/articles/composing-view-controllers-part-3-lifecycle-observers-in-swift?rq=composing%20pt.3
+
+"In this video, you'll learn how to create your own Swift View Controller Lifecycle Observers. Those observers are very useful when composing and creating reusable view controllers. For example:"
+
+"controller.onViewDidAppear(run: ItemsAnalytics.reportPageView)"
+"The solution is based on the UIViewController Containers API so there's no need for external frameworks, swizzling or subclassing!"
+
+
+// ----------------------------------------------------------------------------
+
+
+
+"PART FOUR" = "Integration Tests vs. Contract Tests vs. UI Tests"
+// https://www.essentialdeveloper.com/articles/composing-view-controllers-part-4-integration-tests-vs-contract-tests-vs-ui-tests?rq=composing%20pt.4
+
+"In this video, we're going to improve our Swift View Controller Lifecycle Observers framework by increasing the test confidence with Integration Tests."
+
+"We’re going to discuss the difference between UI Tests, Integration Tests and Contract Tests (Unit Tests). We’ll also bring up some ideas on when to use one over the others."
+
+"The tests we wrote in the previous episode are usually called 'Unit Tests' but, in the context of our framework, we like to call them “Contract Tests.” We call them “Contract Tests” because they ensure we’re using the UIViewController Container API correctly, as defined in Apple’s documentation (or the contract!)."
+

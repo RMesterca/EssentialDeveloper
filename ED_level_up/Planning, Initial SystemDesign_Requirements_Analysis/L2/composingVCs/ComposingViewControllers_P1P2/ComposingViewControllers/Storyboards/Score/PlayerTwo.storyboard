@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bcw-PN-uXQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Player Score View Controller-->
+        <scene sceneID="QrO-8J-tcP">
+            <objects>
+                <viewController id="Bcw-PN-uXQ" customClass="PlayerScoreViewController" customModule="ComposingViewControllers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xwm-RJ-zEr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T6o-Dn-xaN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BL9-94-pcO">
+                                        <rect key="frame" x="177.5" y="25.5" width="59" height="49"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcM-m0-6wN">
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvd-ZL-ta0">
+                                                <rect key="frame" x="7.5" y="28.5" width="44.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="DAI-MC-CoG"/>
+                                    <constraint firstItem="BL9-94-pcO" firstAttribute="centerX" secondItem="T6o-Dn-xaN" secondAttribute="centerX" id="KIh-kI-hfe"/>
+                                    <constraint firstItem="BL9-94-pcO" firstAttribute="centerY" secondItem="T6o-Dn-xaN" secondAttribute="centerY" id="bPi-0H-vXa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="T6o-Dn-xaN" firstAttribute="trailing" secondItem="Xwm-RJ-zEr" secondAttribute="trailing" id="K8J-zB-lnp"/>
+                            <constraint firstItem="T6o-Dn-xaN" firstAttribute="leading" secondItem="Xwm-RJ-zEr" secondAttribute="leading" id="UjM-2C-xdy"/>
+                            <constraint firstItem="T6o-Dn-xaN" firstAttribute="top" secondItem="Xwm-RJ-zEr" secondAttribute="top" id="mZR-2D-cjv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ctV-NB-czT"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="100"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="NcM-m0-6wN" id="wI7-zd-IRj"/>
+                        <outlet property="scoreLabel" destination="dvd-ZL-ta0" id="rlK-ic-TPB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2mP-iC-9kw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="890" y="139"/>
+        </scene>
+    </scenes>
+</document>

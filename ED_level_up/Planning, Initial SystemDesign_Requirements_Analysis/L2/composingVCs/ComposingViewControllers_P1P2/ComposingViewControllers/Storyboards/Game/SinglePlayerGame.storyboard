@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bhf-Ih-TFK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Player-->
+        <scene sceneID="BqD-zf-kAD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayerOne" id="svd-jj-ynH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rn0-H2-yEJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="mZU-Ww-zWe" customClass="SinglePlayerViewControllerStoryboardConfigurator" customModule="ComposingViewControllers" customModuleProvider="target">
+                    <connections>
+                        <outlet property="player" destination="svd-jj-ynH" id="TsL-HL-2RI"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="251" y="17"/>
+        </scene>
+        <!--Single Player-->
+        <scene sceneID="Exp-bq-Nyb">
+            <objects>
+                <viewController id="bhf-Ih-TFK" customClass="SinglePlayerViewController" customModule="ComposingViewControllers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QxG-wq-b4v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c7J-HM-lJt">
+                                <rect key="frame" x="0.0" y="44" width="414" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="7Fd-52-jeG"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="svd-jj-ynH" kind="embed" identifier="Player" id="eBG-x8-u19"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="c7J-HM-lJt" firstAttribute="top" secondItem="BtL-ij-IzV" secondAttribute="top" id="0vB-8m-NwH"/>
+                            <constraint firstItem="BtL-ij-IzV" firstAttribute="trailing" secondItem="c7J-HM-lJt" secondAttribute="trailing" id="2TZ-TG-h9u"/>
+                            <constraint firstItem="c7J-HM-lJt" firstAttribute="leading" secondItem="BtL-ij-IzV" secondAttribute="leading" id="MIg-3S-SqZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BtL-ij-IzV"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Single Player" id="kup-Jp-sSD"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rRG-yU-9e2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-309" y="17"/>
+        </scene>
+    </scenes>
+</document>

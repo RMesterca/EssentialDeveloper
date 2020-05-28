@@ -1,0 +1,20 @@
+
+TDD 1
+
+https://www.youtube.com/watch?v=NW_KS0o6gMY&list=PLyjgjmI1UzlSUlaQD0RvLwwW-LSlJn-F6&index=2
+
+Before we begin building the project, we agree on a set of rules such as:
+ 
+ - Follow the 🍅 Pomodoro Technique for segmenting workload and time
+ - Develop the system by writing tests first
+ - Separate the responsibilities of the system in modules
+
+We start by creating the QuizEngine project, a module responsible for the business logic of the system. Despite the fact that we are building an iOS app, the QuizEngine is created as a macOS framework, allowing us to embed it later in any platform specific deployment target (iOS, tvOS, watchOS, macOS). We also get for free blazing fast unit tests 🚀!
+
+Our first component is the Flow, a class responsible for controlling the routing of the system based on a simple question, "Are there any more questions to show?".
+
+- In case there are we want to get the answer for the current question and move on to the next one.
+- If there are no more questions we want to route to the results.
+
+As we test drive the Flow we get into how we choose to create classes over structs, abstract behaviours by using protocols, boost your productivity by using a somewhat obscure feature of Xcode and much more!
+
