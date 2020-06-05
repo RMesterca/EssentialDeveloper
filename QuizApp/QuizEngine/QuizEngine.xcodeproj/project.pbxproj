@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048D76F5248AE55800858A79 /* xcxcx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D76F4248AE55800858A79 /* xcxcx.swift */; };
 		04AFFA71248A93C300F157EA /* QuizEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AFFA67248A93C300F157EA /* QuizEngine.framework */; };
 		04AFFA85248A94BB00F157EA /* FlowTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFA84248A94BB00F157EA /* FlowTest.swift */; };
 		04AFFA87248A982A00F157EA /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFA86248A982A00F157EA /* Flow.swift */; };
@@ -24,7 +23,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		048D76F4248AE55800858A79 /* xcxcx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcxcx.swift; sourceTree = "<group>"; };
 		04AFFA67248A93C300F157EA /* QuizEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuizEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AFFA6B248A93C300F157EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04AFFA70248A93C300F157EA /* QuizEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +82,6 @@
 			children = (
 				04AFFA84248A94BB00F157EA /* FlowTest.swift */,
 				04AFFA77248A93C300F157EA /* Info.plist */,
-				048D76F4248AE55800858A79 /* xcxcx.swift */,
 			);
 			path = QuizEngineTests;
 			sourceTree = "<group>";
@@ -207,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048D76F5248AE55800858A79 /* xcxcx.swift in Sources */,
 				04AFFA85248A94BB00F157EA /* FlowTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
