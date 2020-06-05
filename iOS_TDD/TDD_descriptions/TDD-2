@@ -1,9 +1,0 @@
-
-TDD-2 
-https://www.youtube.com/watch?v=Dr3DL5BeJGA&list=PLyjgjmI1UzlSUlaQD0RvLwwW-LSlJn-F6&index=3
-
-In this episode, we continue the development of the Flow as we start progressing to next questions. We accomplish this by providing a closure as the answer callback in the Router protocol. 
-
-We discuss the meaning of placing the @escaping instruction in a protocol and we examine our options for dealing with retain cycles and memory management.
-
-In the test side of things, the RouterSpy is refactored to support multiple questions and it gets an answer callback property, so we can control when a question is being answered from our tests.
