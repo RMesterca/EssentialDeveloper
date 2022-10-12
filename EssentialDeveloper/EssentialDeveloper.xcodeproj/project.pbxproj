@@ -18,6 +18,7 @@
 		0492C9D828F7637E003CBF9B /* EssentialDeveloperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C9D728F7637E003CBF9B /* EssentialDeveloperUITests.swift */; };
 		0492C9DA28F7637E003CBF9B /* EssentialDeveloperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C9D928F7637E003CBF9B /* EssentialDeveloperUITestsLaunchTests.swift */; };
 		0492CA1028F76EB5003CBF9B /* Singleton-Vs-singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492CA0F28F76EB5003CBF9B /* Singleton-Vs-singleton.swift */; };
+		0492CA1228F7777A003CBF9B /* Singleton-testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492CA1128F7777A003CBF9B /* Singleton-testing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		0492CA0A28F76B99003CBF9B /* Useful Links.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Useful Links.md"; sourceTree = "<group>"; };
 		0492CA0C28F76CD6003CBF9B /* Are Singletons and Global Instances Damaging your System Design and Testability?.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Are Singletons and Global Instances Damaging your System Design and Testability?.md"; sourceTree = "<group>"; };
 		0492CA0F28F76EB5003CBF9B /* Singleton-Vs-singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singleton-Vs-singleton.swift"; sourceTree = "<group>"; };
+		0492CA1128F7777A003CBF9B /* Singleton-testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singleton-testing.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				0492CA0F28F76EB5003CBF9B /* Singleton-Vs-singleton.swift */,
+				0492CA1128F7777A003CBF9B /* Singleton-testing.swift */,
 			);
 			path = "M1-L1-Singleton";
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 			files = (
 				0492C9B828F7637C003CBF9B /* ViewController.swift in Sources */,
 				0492C9BE28F7637C003CBF9B /* EssentialDeveloper.xcdatamodeld in Sources */,
+				0492CA1228F7777A003CBF9B /* Singleton-testing.swift in Sources */,
 				0492C9B428F7637C003CBF9B /* AppDelegate.swift in Sources */,
 				0492CA1028F76EB5003CBF9B /* Singleton-Vs-singleton.swift in Sources */,
 				0492C9B628F7637C003CBF9B /* SceneDelegate.swift in Sources */,

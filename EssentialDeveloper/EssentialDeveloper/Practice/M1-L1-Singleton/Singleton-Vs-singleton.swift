@@ -1,11 +1,10 @@
 //
-//  Singleton.swift
+//  Singleton-Vs-singleton.swift
 //  EssentialDeveloper
 //
 //  Created by Raluca Mesterca on 12.10.2022.
 //
 
-import UIKit
 
 // Singleton by the book (GOF)
 let client1 = ApiClient1.getInstance()
