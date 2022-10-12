@@ -115,12 +115,10 @@ class ImmutableSharedInstanceApiClient {
     // but you can still create your own and pass it along
 }
 
-class MockApi2: SubclassableApiClient {
+class MockApi2: ImmutableSharedInstanceApiClient {
     // we can intercept here the request to the login function
     // and in this way we are able to test
     // and not make an API call
-
-    //
 }
 
 class LoginViewController4 {
