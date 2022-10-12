@@ -8,7 +8,7 @@
 import UIKit
 
 // singleton by the book (GOF)
-let client = ApiClient1.getInstance()
+let client1 = ApiClient1.getInstance()
 
 class ApiClient1 {
 
@@ -24,12 +24,12 @@ class ApiClient1 {
 
 // in Swift we can just use static let because it cannot be mutate
 // the type system already enforces that for us - simple implementation
-let client = ApiClient2.instance
+let client2 = ApiClient2.instance
 
 class ApiClient2 {
 
     // the key point is that this class needs to have a single point of access
-    private static let instance = ApiClient2()
+    static let instance = ApiClient2()
 
     private init() { }
 }
