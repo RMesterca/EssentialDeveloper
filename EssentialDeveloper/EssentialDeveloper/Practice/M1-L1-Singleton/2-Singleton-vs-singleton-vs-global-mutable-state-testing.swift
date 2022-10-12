@@ -1,5 +1,5 @@
 //
-//  Singleton-testing.swift
+//  Singleton-vs-singleton-vs-global-mutable-state-testing.swift
 //  EssentialDeveloper
 //
 //  Created by Raluca Mesterca on 13.10.2022.
@@ -12,8 +12,8 @@ import UIKit
 
 struct LoggedInUser {}
 
-final class ApiClient {
-    static let instance = ApiClient()
+final class FinalApiClient {
+    static let instance = FinalApiClient()
     private init() { }
 
     func login(completion: (LoggedInUser) -> Void) { }
@@ -23,7 +23,7 @@ class LoginViewController1 {
 
     // this would be hard to test
     func didTapLoginButton() {
-        ApiClient.instance.login() { user in
+        FinalApiClient.instance.login() { user in
             // do something, i.e. show next screen
         }
     }
@@ -127,7 +127,7 @@ class LoginViewController4 {
     var api = ImmutableSharedInstanceApiClient.instance
     func didTapLoginButton() {
         ImmutableSharedInstanceApiClient.instance.login() { user in
-            
+
         }
     }
 }
