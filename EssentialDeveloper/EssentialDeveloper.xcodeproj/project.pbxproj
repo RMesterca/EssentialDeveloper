@@ -17,9 +17,6 @@
 		0492C9CE28F7637E003CBF9B /* EssentialDeveloperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C9CD28F7637E003CBF9B /* EssentialDeveloperTests.swift */; };
 		0492C9D828F7637E003CBF9B /* EssentialDeveloperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C9D728F7637E003CBF9B /* EssentialDeveloperUITests.swift */; };
 		0492C9DA28F7637E003CBF9B /* EssentialDeveloperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C9D928F7637E003CBF9B /* EssentialDeveloperUITestsLaunchTests.swift */; };
-		0492C9EF28F766A4003CBF9B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0492C9ED28F766A4003CBF9B /* 1.png */; };
-		0492C9F028F766A4003CBF9B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0492C9EE28F766A4003CBF9B /* 2.png */; };
-		0492C9F428F76700003CBF9B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0492C9F328F76700003CBF9B /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +61,14 @@
 		0492C9F828F76793003CBF9B /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		0492C9F928F76793003CBF9B /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		0492C9FA28F76793003CBF9B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		0492C9FC28F76851003CBF9B /* The iOS Lead Essentials Structure.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "The iOS Lead Essentials Structure.md"; sourceTree = "<group>"; };
+		0492C9FE28F76955003CBF9B /* The Decisive Factors of Your Training.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "The Decisive Factors of Your Training.md"; sourceTree = "<group>"; };
+		0492CA0028F769A0003CBF9B /* The iOS Lead Essentials High-Performance Mindset.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "The iOS Lead Essentials High-Performance Mindset.md"; sourceTree = "<group>"; };
+		0492CA0228F769DB003CBF9B /* Brhavioral Profiles.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Brhavioral Profiles.md"; sourceTree = "<group>"; };
+		0492CA0428F76A1E003CBF9B /* Thriving Through Adversity.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Thriving Through Adversity.md"; sourceTree = "<group>"; };
+		0492CA0628F76AA2003CBF9B /* Building a Remarkable Reputation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Building a Remarkable Reputation.md"; sourceTree = "<group>"; };
+		0492CA0828F76B11003CBF9B /*   Planning and Getting Things Done Effectively .md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "  Planning and Getting Things Done Effectively .md"; sourceTree = "<group>"; };
+		0492CA0A28F76B99003CBF9B /* Useful Links.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Useful Links.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,19 +160,27 @@
 		0492C9E728F763A4003CBF9B /* Introduction */ = {
 			isa = PBXGroup;
 			children = (
-				0492C9EC28F76696003CBF9B /* A Tested and Proven Methodology */,
+				0492CA0928F76B8A003CBF9B /* 0 - Useful links */,
+				0492C9EC28F76696003CBF9B /* 1 - A Tested and Proven Methodology */,
+				0492C9FB28F76806003CBF9B /* 2 - The iOS Lead Essentials Structure */,
+				0492C9FD28F76945003CBF9B /* 3 - The Decisive Factors of Your Training */,
+				0492C9FF28F76993003CBF9B /* 4 - The iOS Lead Essentials High-Performance Mindset */,
+				0492CA0128F769C4003CBF9B /* 5 - Behavioral Profiles */,
+				0492CA0328F76A05003CBF9B /* 6 - Thriving Through Adversity */,
+				0492CA0528F76A91003CBF9B /* 7 - Building a Remarkable Reputation */,
+				0492CA0728F76AF8003CBF9B /* 8 - Planning and Getting Things Done Effectively  */,
 			);
 			path = Introduction;
 			sourceTree = "<group>";
 		};
-		0492C9EC28F76696003CBF9B /* A Tested and Proven Methodology */ = {
+		0492C9EC28F76696003CBF9B /* 1 - A Tested and Proven Methodology */ = {
 			isa = PBXGroup;
 			children = (
 				0492C9F128F766B2003CBF9B /* #1 Reason Why You Don’t Improve As a Software Developer */,
 				0492C9ED28F766A4003CBF9B /* 1.png */,
 				0492C9EE28F766A4003CBF9B /* 2.png */,
 			);
-			path = "A Tested and Proven Methodology";
+			path = "1 - A Tested and Proven Methodology";
 			sourceTree = "<group>";
 		};
 		0492C9F128F766B2003CBF9B /* #1 Reason Why You Don’t Improve As a Software Developer */ = {
@@ -183,6 +196,70 @@
 				0492C9F228F766DA003CBF9B /* videoplayback.mp4 */,
 			);
 			path = "#1 Reason Why You Don’t Improve As a Software Developer";
+			sourceTree = "<group>";
+		};
+		0492C9FB28F76806003CBF9B /* 2 - The iOS Lead Essentials Structure */ = {
+			isa = PBXGroup;
+			children = (
+				0492C9FC28F76851003CBF9B /* The iOS Lead Essentials Structure.md */,
+			);
+			path = "2 - The iOS Lead Essentials Structure";
+			sourceTree = "<group>";
+		};
+		0492C9FD28F76945003CBF9B /* 3 - The Decisive Factors of Your Training */ = {
+			isa = PBXGroup;
+			children = (
+				0492C9FE28F76955003CBF9B /* The Decisive Factors of Your Training.md */,
+			);
+			path = "3 - The Decisive Factors of Your Training";
+			sourceTree = "<group>";
+		};
+		0492C9FF28F76993003CBF9B /* 4 - The iOS Lead Essentials High-Performance Mindset */ = {
+			isa = PBXGroup;
+			children = (
+				0492CA0028F769A0003CBF9B /* The iOS Lead Essentials High-Performance Mindset.md */,
+			);
+			path = "4 - The iOS Lead Essentials High-Performance Mindset";
+			sourceTree = "<group>";
+		};
+		0492CA0128F769C4003CBF9B /* 5 - Behavioral Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				0492CA0228F769DB003CBF9B /* Brhavioral Profiles.md */,
+			);
+			path = "5 - Behavioral Profiles";
+			sourceTree = "<group>";
+		};
+		0492CA0328F76A05003CBF9B /* 6 - Thriving Through Adversity */ = {
+			isa = PBXGroup;
+			children = (
+				0492CA0428F76A1E003CBF9B /* Thriving Through Adversity.md */,
+			);
+			path = "6 - Thriving Through Adversity";
+			sourceTree = "<group>";
+		};
+		0492CA0528F76A91003CBF9B /* 7 - Building a Remarkable Reputation */ = {
+			isa = PBXGroup;
+			children = (
+				0492CA0628F76AA2003CBF9B /* Building a Remarkable Reputation.md */,
+			);
+			path = "7 - Building a Remarkable Reputation";
+			sourceTree = "<group>";
+		};
+		0492CA0728F76AF8003CBF9B /* 8 - Planning and Getting Things Done Effectively  */ = {
+			isa = PBXGroup;
+			children = (
+				0492CA0828F76B11003CBF9B /*   Planning and Getting Things Done Effectively .md */,
+			);
+			path = "8 - Planning and Getting Things Done Effectively ";
+			sourceTree = "<group>";
+		};
+		0492CA0928F76B8A003CBF9B /* 0 - Useful links */ = {
+			isa = PBXGroup;
+			children = (
+				0492CA0A28F76B99003CBF9B /* Useful Links.md */,
+			);
+			path = "0 - Useful links";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,9 +367,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0492C9C328F7637D003CBF9B /* LaunchScreen.storyboard in Resources */,
-				0492C9EF28F766A4003CBF9B /* 1.png in Resources */,
-				0492C9F028F766A4003CBF9B /* 2.png in Resources */,
-				0492C9F428F76700003CBF9B /* 1.png in Resources */,
 				0492C9C028F7637D003CBF9B /* Assets.xcassets in Resources */,
 				0492C9BB28F7637C003CBF9B /* Main.storyboard in Resources */,
 			);
