@@ -7,4 +7,10 @@
 
 import UIKit
 
+class ApiClient {
 
+    
+
+}
+
+let client = ApiClient()
