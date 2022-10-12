@@ -7,7 +7,7 @@
 
 import UIKit
 
-// singleton by the book (GOF)
+// Singleton by the book (GOF)
 let client1 = ApiClient1.getInstance()
 
 class ApiClient1 {
@@ -22,6 +22,10 @@ class ApiClient1 {
     }
 }
 
+
+// Singleton in Swift
+
+
 // in Swift we can just use static let because it cannot be mutate
 // the type system already enforces that for us - simple implementation
 let client2 = ApiClient2.instance
@@ -33,6 +37,9 @@ class ApiClient2 {
 
     private init() { }
 }
+
+
+// Singleton in Swift - final class
 
 
 // the books says you should not make a singleton a final class
@@ -66,7 +73,33 @@ extension ApiClient3 {
 // otherwise just use extensions
 
 
+/// ----------------------------------------------------------------------------------
+/// ----------------------------------------------------------------------------------
 
+// singleton
+/* URLSession.shared
+From docs:
+Discussion
 
+For basic requests, the URLSession class provides a shared singleton session object that gives you a reasonable default behavior for creating tasks. Use the shared session to fetch the contents of a URL to memory with just a few lines of code.
 
+Unlike the other session types, you don’t create the shared session; you merely access it by using this property directly. As a result, you don’t provide a delegate or a configuration object.
+
+ NOTE: - Even though the documentation specifies that the the URLSession class provides a shared singleton, we can still create separate instances of URLSession - with different configurations
+
+ This is just a convenience but it breaks the whole contract that the Singleton design pattern specifies (GOF book)
+
+ URLSession.shared - only getter, cannot set the shared to point to another instance; you still have this unique instance per application run
+
+ // but you can still create your own if you want to
+ URLSession()
+ URLSession(configuration: URLSessionConfiguration)
+
+ Singleton - defined by GOF book
+ singleton - URLSession.shared
+
+*/
+
+// APIClient1,2,3 - Singleton
+// URLSession.shared - singleton
 
