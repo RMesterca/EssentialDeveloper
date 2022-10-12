@@ -69,6 +69,7 @@
 		0492CA0628F76AA2003CBF9B /* Building a Remarkable Reputation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Building a Remarkable Reputation.md"; sourceTree = "<group>"; };
 		0492CA0828F76B11003CBF9B /*   Planning and Getting Things Done Effectively .md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "  Planning and Getting Things Done Effectively .md"; sourceTree = "<group>"; };
 		0492CA0A28F76B99003CBF9B /* Useful Links.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Useful Links.md"; sourceTree = "<group>"; };
+		0492CA0C28F76CD6003CBF9B /* Are Singletons and Global Instances Damaging your System Design and Testability?.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Are Singletons and Global Instances Damaging your System Design and Testability?.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +153,7 @@
 		0492C9E628F76383003CBF9B /* iOS Lead Essentials  */ = {
 			isa = PBXGroup;
 			children = (
+				0492CA0B28F76CAF003CBF9B /* Module 1 - Planning, Initial System Design and Requirements Analysis */,
 				0492C9E728F763A4003CBF9B /* Introduction */,
 			);
 			path = "iOS Lead Essentials ";
@@ -260,6 +262,14 @@
 				0492CA0A28F76B99003CBF9B /* Useful Links.md */,
 			);
 			path = "0 - Useful links";
+			sourceTree = "<group>";
+		};
+		0492CA0B28F76CAF003CBF9B /* Module 1 - Planning, Initial System Design and Requirements Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				0492CA0C28F76CD6003CBF9B /* Are Singletons and Global Instances Damaging your System Design and Testability?.md */,
+			);
+			path = "Module 1 - Planning, Initial System Design and Requirements Analysis";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
