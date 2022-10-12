@@ -10,8 +10,14 @@ import UIKit
 class ApiClient {
 
     // the key point is that this class needs to have a single point of access
+    private static let instance = ApiClient()
+
     private init() { }
+
+    static func getInstance() -> ApiClient {
+        return instance
+    }
 
 }
 
-let client = ApiClient()
+let client = ApiClient.getInstance()
