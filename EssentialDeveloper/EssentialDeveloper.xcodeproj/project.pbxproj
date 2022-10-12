@@ -17,6 +17,7 @@
 		0492C9CE28F7637E003CBF9B /* EssentialDeveloperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C9CD28F7637E003CBF9B /* EssentialDeveloperTests.swift */; };
 		0492C9D828F7637E003CBF9B /* EssentialDeveloperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C9D728F7637E003CBF9B /* EssentialDeveloperUITests.swift */; };
 		0492C9DA28F7637E003CBF9B /* EssentialDeveloperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C9D928F7637E003CBF9B /* EssentialDeveloperUITestsLaunchTests.swift */; };
+		0492CA1028F76EB5003CBF9B /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492CA0F28F76EB5003CBF9B /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		0492CA0828F76B11003CBF9B /*   Planning and Getting Things Done Effectively .md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "  Planning and Getting Things Done Effectively .md"; sourceTree = "<group>"; };
 		0492CA0A28F76B99003CBF9B /* Useful Links.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Useful Links.md"; sourceTree = "<group>"; };
 		0492CA0C28F76CD6003CBF9B /* Are Singletons and Global Instances Damaging your System Design and Testability?.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Are Singletons and Global Instances Damaging your System Design and Testability?.md"; sourceTree = "<group>"; };
+		0492CA0F28F76EB5003CBF9B /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		0492C9B228F7637C003CBF9B /* EssentialDeveloper */ = {
 			isa = PBXGroup;
 			children = (
+				0492CA0D28F76E7D003CBF9B /* Practice */,
 				0492C9E628F76383003CBF9B /* iOS Lead Essentials  */,
 				0492C9B328F7637C003CBF9B /* AppDelegate.swift */,
 				0492C9B528F7637C003CBF9B /* SceneDelegate.swift */,
@@ -272,6 +275,22 @@
 			path = "Module 1 - Planning, Initial System Design and Requirements Analysis";
 			sourceTree = "<group>";
 		};
+		0492CA0D28F76E7D003CBF9B /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				0492CA0E28F76E97003CBF9B /* M1-L1-Singleton */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		0492CA0E28F76E97003CBF9B /* M1-L1-Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				0492CA0F28F76EB5003CBF9B /* Singleton.swift */,
+			);
+			path = "M1-L1-Singleton";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -406,6 +425,7 @@
 				0492C9B828F7637C003CBF9B /* ViewController.swift in Sources */,
 				0492C9BE28F7637C003CBF9B /* EssentialDeveloper.xcdatamodeld in Sources */,
 				0492C9B428F7637C003CBF9B /* AppDelegate.swift in Sources */,
+				0492CA1028F76EB5003CBF9B /* Singleton.swift in Sources */,
 				0492C9B628F7637C003CBF9B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
