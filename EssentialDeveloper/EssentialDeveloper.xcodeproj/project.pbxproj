@@ -76,6 +76,7 @@
 		0492CA0F28F76EB5003CBF9B /* 1-Singleton-Vs-singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-Singleton-Vs-singleton.swift"; sourceTree = "<group>"; };
 		0492CA1128F7777A003CBF9B /* 2-Singleton-vs-singleton-vs-global-mutable-state-testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-Singleton-vs-singleton-vs-global-mutable-state-testing.swift"; sourceTree = "<group>"; };
 		0492CA1528F77FC5003CBF9B /* 3-singleton-testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-singleton-testing.swift"; sourceTree = "<group>"; };
+		0492CA1928F786E5003CBF9B /* diagram-singleton-testing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diagram-singleton-testing.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,9 +293,18 @@
 			children = (
 				0492CA0F28F76EB5003CBF9B /* 1-Singleton-Vs-singleton.swift */,
 				0492CA1128F7777A003CBF9B /* 2-Singleton-vs-singleton-vs-global-mutable-state-testing.swift */,
-				0492CA1528F77FC5003CBF9B /* 3-singleton-testing.swift */,
+				0492CA1728F786A1003CBF9B /* 3-singleton-testing */,
 			);
 			path = "M1-L1-Singleton";
+			sourceTree = "<group>";
+		};
+		0492CA1728F786A1003CBF9B /* 3-singleton-testing */ = {
+			isa = PBXGroup;
+			children = (
+				0492CA1928F786E5003CBF9B /* diagram-singleton-testing.png */,
+				0492CA1528F77FC5003CBF9B /* 3-singleton-testing.swift */,
+			);
+			path = "3-singleton-testing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
