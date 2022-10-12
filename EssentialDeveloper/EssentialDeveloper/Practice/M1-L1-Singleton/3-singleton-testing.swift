@@ -23,7 +23,7 @@ class LoginViewController {
     var api = TestApiClient.instance
     func didTapLoginButton() {
         TestApiClient.instance.login() { user in
-
+            // show feed
         }
     }
 }
