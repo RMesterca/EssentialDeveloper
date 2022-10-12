@@ -17,6 +17,9 @@
 		0492C9CE28F7637E003CBF9B /* EssentialDeveloperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C9CD28F7637E003CBF9B /* EssentialDeveloperTests.swift */; };
 		0492C9D828F7637E003CBF9B /* EssentialDeveloperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C9D728F7637E003CBF9B /* EssentialDeveloperUITests.swift */; };
 		0492C9DA28F7637E003CBF9B /* EssentialDeveloperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492C9D928F7637E003CBF9B /* EssentialDeveloperUITestsLaunchTests.swift */; };
+		0492C9EF28F766A4003CBF9B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0492C9ED28F766A4003CBF9B /* 1.png */; };
+		0492C9F028F766A4003CBF9B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0492C9EE28F766A4003CBF9B /* 2.png */; };
+		0492C9F428F76700003CBF9B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0492C9F328F76700003CBF9B /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,16 @@
 		0492C9D328F7637E003CBF9B /* EssentialDeveloperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialDeveloperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0492C9D728F7637E003CBF9B /* EssentialDeveloperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialDeveloperUITests.swift; sourceTree = "<group>"; };
 		0492C9D928F7637E003CBF9B /* EssentialDeveloperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialDeveloperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0492C9ED28F766A4003CBF9B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		0492C9EE28F766A4003CBF9B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		0492C9F228F766DA003CBF9B /* videoplayback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoplayback.mp4; sourceTree = "<group>"; };
+		0492C9F328F76700003CBF9B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		0492C9F528F76793003CBF9B /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		0492C9F628F76793003CBF9B /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		0492C9F728F76793003CBF9B /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		0492C9F828F76793003CBF9B /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		0492C9F928F76793003CBF9B /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		0492C9FA28F76793003CBF9B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,7 @@
 		0492C9B228F7637C003CBF9B /* EssentialDeveloper */ = {
 			isa = PBXGroup;
 			children = (
+				0492C9E628F76383003CBF9B /* iOS Lead Essentials  */,
 				0492C9B328F7637C003CBF9B /* AppDelegate.swift */,
 				0492C9B528F7637C003CBF9B /* SceneDelegate.swift */,
 				0492C9B728F7637C003CBF9B /* ViewController.swift */,
@@ -128,6 +142,47 @@
 				0492C9D928F7637E003CBF9B /* EssentialDeveloperUITestsLaunchTests.swift */,
 			);
 			path = EssentialDeveloperUITests;
+			sourceTree = "<group>";
+		};
+		0492C9E628F76383003CBF9B /* iOS Lead Essentials  */ = {
+			isa = PBXGroup;
+			children = (
+				0492C9E728F763A4003CBF9B /* Introduction */,
+			);
+			path = "iOS Lead Essentials ";
+			sourceTree = "<group>";
+		};
+		0492C9E728F763A4003CBF9B /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				0492C9EC28F76696003CBF9B /* A Tested and Proven Methodology */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		0492C9EC28F76696003CBF9B /* A Tested and Proven Methodology */ = {
+			isa = PBXGroup;
+			children = (
+				0492C9F128F766B2003CBF9B /* #1 Reason Why You Don’t Improve As a Software Developer */,
+				0492C9ED28F766A4003CBF9B /* 1.png */,
+				0492C9EE28F766A4003CBF9B /* 2.png */,
+			);
+			path = "A Tested and Proven Methodology";
+			sourceTree = "<group>";
+		};
+		0492C9F128F766B2003CBF9B /* #1 Reason Why You Don’t Improve As a Software Developer */ = {
+			isa = PBXGroup;
+			children = (
+				0492C9F328F76700003CBF9B /* 1.png */,
+				0492C9FA28F76793003CBF9B /* 2.png */,
+				0492C9F728F76793003CBF9B /* 3.png */,
+				0492C9F828F76793003CBF9B /* 4.png */,
+				0492C9F928F76793003CBF9B /* 5.png */,
+				0492C9F528F76793003CBF9B /* 6.png */,
+				0492C9F628F76793003CBF9B /* 7.png */,
+				0492C9F228F766DA003CBF9B /* videoplayback.mp4 */,
+			);
+			path = "#1 Reason Why You Don’t Improve As a Software Developer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +290,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0492C9C328F7637D003CBF9B /* LaunchScreen.storyboard in Resources */,
+				0492C9EF28F766A4003CBF9B /* 1.png in Resources */,
+				0492C9F028F766A4003CBF9B /* 2.png in Resources */,
+				0492C9F428F76700003CBF9B /* 1.png in Resources */,
 				0492C9C028F7637D003CBF9B /* Assets.xcassets in Resources */,
 				0492C9BB28F7637C003CBF9B /* Main.storyboard in Resources */,
 			);
